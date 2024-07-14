@@ -45,6 +45,7 @@ int main() {
     return 0;
 }
 
+// functions
 double add() {
     cout << "Input First Number: ";
     cin >> firstNumber;
