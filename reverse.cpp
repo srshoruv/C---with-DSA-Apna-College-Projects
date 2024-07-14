@@ -5,7 +5,7 @@ int main(){
     // variables with input
     int n;
     int reverse = 0;
-    cout << "Input the odd number to process: ";
+    cout << "Input the number to reverse: ";
     cin >> n;
 
     while (n > 0) {
@@ -15,4 +15,5 @@ int main(){
     }
 
     cout << reverse << endl;
+    return 0;
 }
