@@ -10,4 +10,5 @@ int main(){
         ans = p * i;
         cout << p << " x " << i << " = " << ans << endl;
     }
+    return 0;
 }
