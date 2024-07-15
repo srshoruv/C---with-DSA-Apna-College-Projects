@@ -7,7 +7,7 @@ int main(){
     bool isPrime = true ;
 
     while (true) {
-    cout << "Input the a number to process: ";
+    cout << "Input the a number to check prime: ";
     cin >> n;
 
     for (int i = 2; i <= n-1; i++){
