@@ -3,19 +3,24 @@ using namespace std;
 
 int main(){
     int num;
-    int sum = 2;
-
-
     cout << "Enter the end point of prime numbers : ";
     cin >> num;
 
     for (int i=2; i <= num; i++){
-        
-        if ( i % 2 == 0 && i != 2) {
-            continue;
+
+        bool isPrime = true;
+
+        for ( int j = 2; j*j <= i; j++) {
+            if ( i % j == 0){
+                isPrime = false;
+                continue;
+            }
         } 
-        cout << i << " ";
-    }   
+        
+        if (isPrime) {
+                cout << i << " ";
+            }
+    }   cout << endl;
     
     return 0;
 }
